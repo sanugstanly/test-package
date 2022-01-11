@@ -13,5 +13,12 @@
     "psr-4": {
       "Sanu\\TestPackage\\": "src"
     }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Sanu\\TestPackage\\TestPackageProvider"
+      ]
+    }
   }
 }
