@@ -1,0 +1,18 @@
+{
+  "name": "vagrant/test-package",
+  "type": "project",
+  "license": "MLT",
+  "authors": [
+    {
+      "name": "Sanu G Stanly",
+      "email": "sanu.stanly@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Sanu\\TestPackage\\": "src/"
+    }
+  }
+}
