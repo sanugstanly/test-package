@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Sanu\TestPackage\Http\Controllers;
 
-use Illuminate\Http\Request;
+use Illuminate\Routing\Controller;
 
 class TestPackageController extends Controller
 {
